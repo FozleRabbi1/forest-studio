@@ -1,0 +1,20 @@
+[
+    {
+        "name" : "Dear",
+        "id" : 1,
+        "img" : "https://media.istockphoto.com/photos/call-of-the-wild-picture-id183765700?b=1&k=20&m=183765700&s=170667a&w=0&h=j8n5lDHiabgi7l8qmyzIuVsWVpIjGm3wOCK8du4FeJA=",
+        "description" : "Unfortunately, not every bear gets to live freely in the wild: many are forced to perform in circuses, are kept as baiting bears that must fight to survive or must pose for selfies with tourists. These bears are regarded as a lucrative source of income for their owners, and are often kept in terrible conditions. Worldwide, there are many forms of cruel bear keeping and abuse, and it is our task to intervene."
+    },
+    {
+        "name" : "Animal",
+        "id" : 2,
+        "img" : "",
+        "description" : ""
+    },
+    {
+        "name" : "Animal",
+        "id" : 3,
+        "img" : "",
+        "description" : ""
+    }
+]
