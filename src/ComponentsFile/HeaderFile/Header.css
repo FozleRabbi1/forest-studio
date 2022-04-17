@@ -1,0 +1,14 @@
+.nav-style{
+    background-color: rgba(0,0,0,0.9);
+}
+.nav-style .text{
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    letter-spacing: 7px;
+    font-weight: 700;
+}
+.control-bar-style{
+    background-color: aqua;
+    margin-right: 10px;
+}

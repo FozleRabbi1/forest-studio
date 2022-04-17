@@ -1,0 +1,16 @@
+.all-services{
+    display: flex;
+    padding: 5px;
+}
+.all-services img{
+    width: 150px;
+    height: 120px;
+}
+.all-services .service-text-container{
+    text-align: left;
+    padding-left: 10px;
+}
+.service-text-container h6{
+    margin: 0 ;
+    padding: 0;
+}

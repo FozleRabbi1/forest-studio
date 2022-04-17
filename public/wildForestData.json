@@ -2,19 +2,25 @@
     {
         "name" : "Dear",
         "id" : 1,
+        "coust" : 1200,
+        "work":"work",
         "img" : "https://media.istockphoto.com/photos/call-of-the-wild-picture-id183765700?b=1&k=20&m=183765700&s=170667a&w=0&h=j8n5lDHiabgi7l8qmyzIuVsWVpIjGm3wOCK8du4FeJA=",
         "description" : "Unfortunately, not every bear gets to live freely in the wild: many are forced to perform in circuses, are kept as baiting bears that must fight to survive or must pose for selfies with tourists. These bears are regarded as a lucrative source of income for their owners, and are often kept in terrible conditions. Worldwide, there are many forms of cruel bear keeping and abuse, and it is our task to intervene."
     },
     {
-        "name" : "Animal",
+        "name" : "Product",
         "id" : 2,
-        "img" : "",
-        "description" : ""
+        "coust" : 800,
+        "work":"work",
+        "img" : "https://i0.wp.com/epthinktank.eu/wp-content/uploads/2021/09/EPRS-Briefing-698028-General-product-safety-regulation-FINAL.png?fit=1000%2C666&ssl=1",
+        "description" : "product photographers in london Product Photography Joel is an experienced product photographer and our professional Enfield photographic studio is equipped with all the necessary photographic lighting and choice of backdrops to enable us to deliver unique, "
     },
     {
         "name" : "Animal",
         "id" : 3,
-        "img" : "",
-        "description" : ""
+        "coust" : 1500,
+        "work":"work",
+        "img" : "https://images.unsplash.com/photo-1611871928299-23c83804b02e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmlyZCUyMHBob3RvZ3JhcGh5fGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+        "description" : "Birds' bodies are covered with a light, tough layer of feathers and they have very light skeletons. Instead of teeth, they have hornlike beaks, or bills. Birds hatch from eggs, and many species build nests where their eggs and young can develop in safety. Only about 40 bird species cannot fly."
     }
 ]
