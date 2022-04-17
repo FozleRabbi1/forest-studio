@@ -7,6 +7,8 @@ import AboutMe from './ComponentsFile/AllPagesFile/AboutMeFile/AboutMe';
 import Login from './ComponentsFile/AllPagesFile/LoginFIle/Login';
 import Register from './ComponentsFile/AllPagesFile/RegisterFile/Register';
 import NotFound from './ComponentsFile/NotFoundFIle/NotFound';
+import CheckOut from './ComponentsFile/CheckOutFile/CheckOut';
+import RequirAuth from './ComponentsFile/RequireAuth/RequirAuth';
 
 function App() {
   return (
@@ -18,6 +20,13 @@ function App() {
         <Route path='/aboutMe' element={<AboutMe></AboutMe>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
+
+        <Route path='/checkOut/:checkId' element={
+          <RequirAuth>
+            <CheckOut></CheckOut>
+           </RequirAuth>
+        }></Route>
+
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
 
