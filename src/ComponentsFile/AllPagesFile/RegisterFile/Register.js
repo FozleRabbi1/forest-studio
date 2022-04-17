@@ -5,6 +5,8 @@ import { Button, Form } from 'react-bootstrap';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init'
 import { Link, useNavigate } from 'react-router-dom';
+import Social from '../SocialFile/Social';
+import Loading from '../../LoadingPage/Loading';
 
 
 const Register = () => {
@@ -15,11 +17,14 @@ const Register = () => {
     const [customError, setcuStomError] = useState('');
     const navigate = useNavigate();
 
-    const [createUserWithEmailAndPassword,user, loading, ceratError,] = useCreateUserWithEmailAndPassword(auth);
+    const [createUserWithEmailAndPassword,user, loading, ceratError,] = useCreateUserWithEmailAndPassword(auth, {sendEmailVerification : true});
 
     const checkedFun = (e) => {
         const checkedValue = e.target.checked;
         getAggri(checkedValue);
+    }
+    if(loading){
+        // return <Loading></Loading>
     }
 
     if(user){
@@ -40,7 +45,7 @@ const Register = () => {
         }
         else{
             createUserWithEmailAndPassword(email, password);
-            setcuStomError("Registerd SeccessFully You can Login Right Now")
+            setcuStomError("Registerd SeccessFull Chack Your Email")
         }
         console.log(email, password, confurmPassword);
     }
@@ -53,10 +58,10 @@ const Register = () => {
             </div>
 
             <div className="form-div">
-                <div className='from-child-div'>
+                <div className='from-child-div mx-auto'>
                     <h2>Register Here</h2>
 
-                    <Form className='mx-auto' onSubmit={submitFun}>
+                    <Form className='' onSubmit={submitFun}>
 
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label>Email address</Form.Label>
@@ -86,6 +91,7 @@ const Register = () => {
                         </Button>
                     </Form>
 
+                <Social></Social>
                 </div>
             </div>
 

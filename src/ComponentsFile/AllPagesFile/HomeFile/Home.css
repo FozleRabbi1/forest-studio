@@ -47,7 +47,7 @@
 .photografer-ditles{
     background-color: rgba(0,0,0,0.3);
     margin: 0 0px;
-    padding: 60px 0;
+    padding: 30px 0;
     justify-content: center;
 }
 .photografer-ditles .info{
@@ -80,7 +80,10 @@
 .service-info-div{
     display: flex;
 }
+.some-info h2{
+    padding: 120px 20px 0;
+}
 .some-info p{
-    padding: 120px 20px;
+    padding: 0 20px;
     text-align: justify;
 }

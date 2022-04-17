@@ -9,6 +9,7 @@ import Register from './ComponentsFile/AllPagesFile/RegisterFile/Register';
 import NotFound from './ComponentsFile/NotFoundFIle/NotFound';
 import CheckOut from './ComponentsFile/CheckOutFile/CheckOut';
 import RequirAuth from './ComponentsFile/RequireAuth/RequirAuth';
+// import Footer from './ComponentsFile/FooterFile/Footer';
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
 
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
+
+      {/* <Footer></Footer> */}
 
     </div>
   );
