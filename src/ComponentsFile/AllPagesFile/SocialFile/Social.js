@@ -2,7 +2,6 @@ import React from 'react';
 import { useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
-import Loading from '../../LoadingPage/Loading';
 import './Sosial.css';
 
 const Social = () => {
