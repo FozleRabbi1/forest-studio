@@ -6,7 +6,6 @@ import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init'
 import { Link, useNavigate } from 'react-router-dom';
 import Social from '../SocialFile/Social';
-import Loading from '../../LoadingPage/Loading';
 
 
 const Register = () => {
@@ -22,9 +21,6 @@ const Register = () => {
     const checkedFun = (e) => {
         const checkedValue = e.target.checked;
         getAggri(checkedValue);
-    }
-    if(loading){
-        // return <Loading></Loading>
     }
 
     if(user){
