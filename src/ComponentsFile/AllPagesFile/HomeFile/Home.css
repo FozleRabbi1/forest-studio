@@ -1,37 +1,43 @@
-.header-section{
+.header-section {
     width: 100%;
     margin-top: 62px;
 }
-.img-container{
+
+.img-container {
     width: 100%;
     position: relative;
 }
-.img-container img{
+
+.img-container img {
     width: 100%;
     height: 580px;
     background-position: center;
     background-size: cover;
 }
-.text-container{
+
+.text-container {
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-50%);   
+    transform: translate(-50%);
 }
-.text-container h1{
+
+.text-container h1 {
     color: aqua;
     text-shadow: 1px 1px 1px red;
     letter-spacing: 2px;
 }
-.text-container input{
+
+.text-container input {
     border: none;
     padding: 5px 30px;
     border: 2px solid white;
     border-radius: 30px 0 0 30px;
-    background-color: rgba(0,0,0,0.3);
-    box-shadow: 3px 3px 5px gray; 
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 5px gray;
 }
-.text-container button{
+
+.text-container button {
     border: none;
     padding: 6px 40px;
     border: 1px solid rgb(247, 245, 245);
@@ -41,16 +47,46 @@
     font-size: 18px;
     font-weight: 600;
     color: red;
-    font-style: italic;    
+    font-style: italic;
 }
 
-.photografer-ditles{
-    background-color: rgba(0,0,0,0.3);
+@media (max-width:990px) {
+    .img-container img {
+        height: 450px;
+    }
+
+    .text-container {
+        top: 30%;
+    }
+
+    .text-container input {
+        padding: 5px 30px;
+        border: 2px solid white;
+        border-radius: 30px;
+        margin-bottom: 5px;
+        width: 350px;
+    }
+    .photografer-ditles h2{
+        color: aqua;
+        text-shadow: 3px 1px 3px rgb(117, 57, 57);
+        font-size: 2rem;
+    }
+    .photografer-ditles .info{
+        margin: 0 10px;
+    }
+    .image{
+        margin-top: 20px;
+    }
+}
+
+.photografer-ditles {
+    background-color: rgba(0, 0, 0, 0.3);
     margin: 0 0px;
     padding: 30px 0;
     justify-content: center;
 }
-.photografer-ditles .info{
+
+.photografer-ditles .info {
     width: 450px;
     box-shadow: 1px 1px 8px aqua;
     background-color: aliceblue;
@@ -59,31 +95,41 @@
     padding: 70px 15px;
 
 }
-.photografer-ditles .image img{
+
+.photografer-ditles .image img {
     border-right: 4px solid aqua;
     border-top: 4px solid aqua;
     padding: 10px;
     height: 450px;
     width: 450px;
 }
-.service-section .h2{
+
+.service-section .h2 {
     color: aqua;
-    text-shadow: 1px 1px 3px red;
-    /* border-bottom: 3px solid aqua; */
+    text-shadow: 3px 1px 3px rgb(117, 57, 57);
     border-bottom: 3px solid rgb(225, 78, 245);
     width: 300px;
     margin: 0 auto;
     border-radius: 10px;
     box-shadow: 1px 2px 3px gray;
-    padding: 3px ;
+    padding: 3px;
 }
-.service-info-div{
+
+.service-info-div {
     display: flex;
 }
-.some-info h2{
+
+.some-info h2 {
     padding: 120px 20px 0;
 }
-.some-info p{
+
+.some-info p {
     padding: 0 20px;
     text-align: justify;
+}
+
+@media (max-width:990px){
+    .some-info h2 {
+        padding: 5px 20px 0;
+    }
 }

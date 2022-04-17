@@ -1,0 +1,46 @@
+.compair-section{
+    background-color: aqua;
+    padding:0 10px;
+    width: 100%;
+}
+.authorization-authentication{
+    display: flex;
+    text-align: justify;
+}
+.authorization-authentication ol li{
+    margin: 5px 0;
+}
+.otherOpt-otherService{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.otherOpt{
+    width: 48%;
+    background-color: aqua;
+    text-align: justify;
+    padding: 5px 10px;
+}
+ 
+.otherService{
+    width: 48%;
+    background-color: aqua;
+    text-align: justify;
+    padding: 5px 10px;
+}
+
+@media (max-width:766px) {
+    .otherOpt-otherService{
+        display: flex;
+        flex-direction: column;        
+    }
+    .otherOpt{
+        width: 100%;
+    }
+     
+    .otherService{
+        width: 100%;
+        margin: 10px 0 20px  0;
+    }        
+}
