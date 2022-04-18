@@ -14,14 +14,14 @@ Live Site : [The Wild Studio](https://the-forest-studio.firebaseapp.com/).
 05 : You must share your experience using the site.
 
 # Everything that has been used to create the site.
-01 : React library
-02 : React Router
-03 : React Tostify
-04 : React Dom
-05 : React Hooks
-06 : Google Firebse
-07 : Firebse Hooks
-08 : React Bootstrap ETC
+01 : React library.
+02 : React Router.
+03 : React Tostify.
+04 : React Dom.
+05 : React Hooks.
+06 : Google Firebse.
+07 : Firebse Hooks.
+08 : React Bootstrap ETC.
 
 
 
