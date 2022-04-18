@@ -32,7 +32,7 @@ const CheckOut = () => {
                     <div className="checkout-form">
                         <Form className='form' onSubmit={submitFun}>
                             <Form.Group className="mb-3" controlId="formBasicName">
-                                <Form.Label>Email address</Form.Label>
+                                <Form.Label>Name</Form.Label>
                                 <Form.Control className='FormControl' ref={getName} type="text" placeholder="Enter your yame" required />
                             </Form.Group>
 
@@ -65,7 +65,7 @@ const CheckOut = () => {
                     <div className="product-ditles">
                         <img src={findData?.img} alt="" />
                         <h3>Name : {findData?.name}</h3>
-                        <h5>Cost : {findData?.coust}</h5>
+                        <h5>Cost : {findData?.coust}$ per-Album</h5>
                         <p>{findData?.description}</p>
                     </div>
                 </div>
