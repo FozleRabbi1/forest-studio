@@ -1,0 +1,20 @@
+.main-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+    box-shadow: 5px 5px 7px grey;
+}
+.my-image img{
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+}
+@media (min-width:990px) {
+        .main-container{
+            display: flex;
+        }
+        .my-image img{
+            width: 400px;
+            height: 450px;
+        }
+}

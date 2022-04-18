@@ -1,0 +1,38 @@
+.product-ditles{
+    text-align: left;
+    background-color: aqua;
+    padding: 10px;
+    box-shadow: 5px 5px 8px gray;
+    height: 500px;
+}
+.product-ditles img{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px gray;
+}
+.product-ditles p{
+    text-align: justify;
+}
+.product-ditles h5{
+    color: red;
+}
+
+.checkout-form{
+    background-color: antiquewhite;
+    background-image: url(../../image/bird2.jpg);
+    background-size: cover;
+}
+.checkout-form .form{
+    text-align: left;
+    color: white;
+    padding: 10px;
+    height: 500px;
+}
+.FormControl{
+    background-color: transparent;
+    box-shadow: 2px 2px 3px gray;
+    background-color: rgba(0,0,0,0.4);
+}
