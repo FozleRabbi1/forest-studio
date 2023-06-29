@@ -30,8 +30,8 @@ const Home = () => {
                 <div className="info col-12 col-md-6">
                     <h5>Name : Dwayne Johnson</h5>
                     <h6>Profession : Photography</h6>
-                    <h6>Location : XXX</h6>
-                    <p>Gmail : XXXXXXXXXX</p>
+                    <h6>Location : New Yourk, USA</h6>
+                    <p>Gmail : dwayne02@gmail.com</p>
                     <p>Photographers use a variety of photographic equipment to capture events, people, objects or scenes for records, art or commercial use. Many photographers begin their careers as photographic assistants, setting up lights and stands, arranging transport and occasionally acting as a 'second shooter'.</p>
                 </div>
 
